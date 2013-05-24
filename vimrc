@@ -1,7 +1,7 @@
 set nocompatible    "be iMproved
 filetype off    "required
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=/home/moonstruck/dotfiles/vim/bundle/vundle
 call vundle#rc()
 Bundle 'gmarick/vundle'
 Bundle 'altercation/vim-colors-solarized'
@@ -13,8 +13,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'spf13/PIV'
 Bundle 'ervandew/supertab'
 Bundle 'digitaltoad/vim-jade'
-Bundle 'blade'
-Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neocomplcache.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-surround'
 Bundle 'tomtom/quickfixsigns_vim'
@@ -45,7 +44,7 @@ set background=dark
 set t_Co=256
 "colorscheme monokai
 "colorscheme Tomorrow
-colorscheme smyck
+"colorscheme smyck
 set number              "set line numbers
 set incsearch           "set incremental search
 set hlsearch            "set highlighted search

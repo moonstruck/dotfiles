@@ -34,6 +34,11 @@ alias ....='cd ../../../'
 alias .....='cd ../../../../'
 alias ......='cd ../../../../../'
 
+
+
+alias json="python -mjson.tool"
+
+
 #Node js binaries
 #alias node="/home/moonstruck/Soft/node-v0.10.6-linux-x86/bin/node"
 #alias npm="/home/moonstruck/Soft/node-v0.10.6-linux-x86/bin/npm"
