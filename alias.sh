@@ -45,3 +45,7 @@ alias json="python -mjson.tool"
 #alias node="/home/moonstruck/Soft/node-v0.10.6-linux-x86/bin/node"
 #alias npm="/home/moonstruck/Soft/node-v0.10.6-linux-x86/bin/npm"
 
+alias composer="php ~/.bin/composer.phar"
+alias wp=~/.composer/bin/wp
+alias c=clear
+alias e=exit
